@@ -8,6 +8,7 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "prettier": "prettier --write src/**/*.ts",
+    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "build": "tsc"
   },
   "keywords": [],
